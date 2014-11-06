@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{}
+
+body{
+	width:100%;
+	height:100%;
+}
+
+
+#canvas{
+	width:772px;
+	height:592px;
+	border:solid #000 thick;
+	margin:25px auto;
+	position:fixed;
+}
+
+#room1{
+	width:68.76px;
+	height:87.86px;
+	background-color:#999;	
+	text-align:center;
+	position:absolute;
+}
+
+#room2{
+	width:110.01px;
+	height:57.14px;
+	background-color:#900;
+	text-align:center;
+	left:68.76px ;
+	position:absolute;	
+}
+
+#room3{
+	width:110.01px;
+	height:57.143px;
+	background-color:#CC3;
+	text-align:center;
+	left:178.77px;
+	position:absolute;
+}
+
+
+#box{width:0px;
+	height:0px;
+	margin-left:386px;
+	margin-top:296px;
+	z-index:50;
+	opacity:0;
+	background-color:#063;
+}
+
+
+.exit{cursor:pointer;}
+
+#room1{
+	cursor:pointer;}
