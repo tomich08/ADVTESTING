@@ -49,3 +49,6 @@ body{
 
 #roominfo3{display:none;}
 
+#touchscreen{border:#000 thin solid;background-color:ccc;margin-left:722px;width:50px;}
+
+#roombtn2{cursor:pointer;}
